@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+body {
+    background-color: #8b0000;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em; /* Adjust as needed */
+    color: white; /* Change as desired */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em; /* Adjust as needed */
+    color: #DFC087; /* Change as desired */
+    margin-top: 10px; /* Optional spacing */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif; /* Apply Open Sans to all paragraph elements */
+    color: white; /* Optional: Change text color for better visibility */
+    text-align: center;
+}

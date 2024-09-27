@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+thead {
+    background-color: #ADD8E6;
+}
+
+table {
+    border-collapse: collapse; /* Ensures there are no gaps between the cells */
+    width: 100%;
+    border: 2px solid lightgrey; /* Adds a border to the entire table */
+}
+
+thead, td, th {
+    border: 1px solid lightgrey; /* Apply the border to headers and table cells */
+    padding: 5px;
+}

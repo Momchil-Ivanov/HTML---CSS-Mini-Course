@@ -1,0 +1,53 @@
+/* General button container */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between buttons */
+    margin: 20px; /* Margin around the container */
+    width: fit-content; /* Ensure the buttons take minimal width */
+    align-items: flex-start; /* Align buttons to the left */
+}
+
+/* Shared button styles */
+.button {
+    padding: 10px 20px; /* Padding inside the buttons */
+    color: white; /* White text and icon */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    display: flex; /* Flexbox for horizontal alignment */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Center items horizontally */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover transition with slight scaling */
+    min-width: 150px; /* Set button width to be compact */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+}
+
+.button i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Hover effects for all buttons */
+.button:hover {
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Increase shadow depth */
+}
+
+/* Green button styling */
+.green {
+    background-color: #008000; /* Green background */
+}
+
+.green:hover {
+    background-color: #006600; /* Darker green on hover */
+}
+
+/* Orange button styling */
+.orange {
+    background-color: #FFA500; /* Orange background */
+}
+
+.orange:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&display=swap'); /* Erica One is a unique and quirky font */
+
+* {
+    color: #6D6B77;
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+    color: black;
+}
+
+p {
+    font-family: "Erica One", cursive; /* Uncommon and eccentric font */
+}
